@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Xml</string>
+
+    <string name="navigation_drawer_open">Открыть меню</string>
+    <string name="navigation_drawer_close">Закрыть меню</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="pytkovskaya_natalia">Пятковская Наталия</string>
+    <string name="xml">Xml редактор</string>
+    <string name="add">Добавить</string>
+    <string name="newbutton">Новый список</string>
+    <string name="save_list">Сохранить список</string>
+    <string name="load_list">Загрузить список</string>
+    <string name="additional">Дополнительно</string>
+    <string name="generate_list">Генерировать список</string>
+    <string name="pcb_line">Пасспорт %1$s, Страна %2$s, Д/Р %3$s</string>
+    <string name="shg_line">Школа %1$s, Высшее образование %2$s, Пол %3$s</string>
+    <string name="mcw_line">Брак: %1$s, Дети %2$s, Работа %3$s</string>
+    <string name="count_hint">Введите количество</string>
+    <string name="first_name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="surname">Отчество</string>
+    <string name="passport_code">Номер паспорта</string>
+    <string name="country">Страна</string>
+    <string name="birthsday">Дата рождения</string>
+    <string name="school_name">Школа</string>
+    <string name="begin">Начало</string>
+    <string name="end">Конец</string>
+    <string name="gender">Пол</string>
+    <string name="married">Брак</string>
+    <string name="male">Мужской</string>
+    <string name="female">Женский</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+</resources>

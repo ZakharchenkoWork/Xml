@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:id="@+id/addButton"
+            android:icon="@drawable/add"
+            android:title="@string/add" />
+        <item
+            android:id="@+id/newButton"
+            android:icon="@drawable/add_list"
+            android:title="@string/newbutton" />
+        <item
+            android:id="@+id/saveButton"
+            android:icon="@drawable/save"
+            android:title="@string/save_list" />
+        <item
+            android:id="@+id/loadButton"
+            android:icon="@drawable/load"
+            android:title="@string/load_list" />
+
+    </group>
+    <item android:title="@string/additional">
+        <menu>
+            <item
+                android:id="@+id/generateButton"
+                android:icon="@drawable/generate"
+                android:title="@string/generate_list" />
+        </menu>
+    </item>
+
+</menu>

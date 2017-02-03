@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Xml</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="pytkovskaya_natalia">Pytkovskaya Natalia</string>
+    <string name="xml">Xml editor</string>
+    <string name="add">Add</string>
+    <string name="newbutton">New list</string>
+    <string name="save_list">Save list</string>
+    <string name="load_list">Load list</string>
+    <string name="additional">Additional</string>
+    <string name="generate_list">Generate list</string>
+    <string name="pcb_line">Passport %1$s, Country %2$s, Birth %3$s</string>
+    <string name="shg_line">School %1$s, Higher education %2$s, Gender %3$s</string>
+    <string name="mcw_line">Married %1$s, Childes %2$s, Job %3$s</string>
+    <string name="count_hint">Enter count</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="surname">Surname</string>
+    <string name="passport_code">Passport code</string>
+    <string name="country">Country</string>
+    <string name="birthsday">Birthsday</string>
+    <string name="school_name">School name</string>
+    <string name="begin">Begin</string>
+    <string name="end">End</string>
+    <string name="gender">Gender</string>
+    <string name="married">Married</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

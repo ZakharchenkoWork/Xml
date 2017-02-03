@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/first_name"
+        android:ems="10"
+        android:id="@+id/fNameEdit"
+        style="@style/edit_activity_margins" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/last_name"
+        android:ems="10"
+        android:id="@+id/lNameEdit"
+        style="@style/edit_activity_margins" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/surname"
+        android:ems="10"
+        android:id="@+id/sNameEdit"
+        style="@style/edit_activity_margins" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/passport_code"
+        android:ems="10"
+        android:id="@+id/PassportEdit"
+        style="@style/edit_activity_margins" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/country"
+        android:ems="10"
+        android:id="@+id/editCountry"
+        style="@style/edit_activity_margins" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/birthsday"
+        android:ems="10"
+        android:id="@+id/editBirthsday"
+        style="@style/edit_activity_margins" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/school_name"
+        android:ems="10"
+        android:id="@+id/editSchool"
+        style="@style/edit_activity_margins" />
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        style="@style/edit_activity_margins" >
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_weight="1"
+        android:hint="@string/begin"
+        android:ems="10"
+        android:id="@+id/editBegin"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:inputType="textPersonName"
+        android:hint="@string/end"
+        android:ems="10"
+        android:id="@+id/editEnd"
+        />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/edit_activity_margins"
+        android:text="@string/gender"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="@style/edit_activity_margins"
+        android:id="@+id/gender"
+        android:weightSum="2">
+
+        <RadioButton
+            android:text="@string/male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/male"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/female"
+            android:layout_weight="1" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/edit_activity_margins"
+        android:text="@string/married"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/edit_activity_margins"
+            android:orientation="horizontal"
+            android:id="@+id/married"
+            android:weightSum="2"
+            >
+        <RadioButton
+            android:text="@string/yes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/yes"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/no"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+</LinearLayout>
+

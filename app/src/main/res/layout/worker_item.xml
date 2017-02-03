@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainData"
+        android:textStyle="bold"
+        android:text="1 Константин Георгиевич Захарченко"
+        style="@style/workerText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/passport_country_birth"
+            style="@style/workerText"
+            android:text="@string/pcb_line"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/workerText"
+        android:id="@+id/school_higher_gender"
+        android:text="@string/shg_line"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/married_childs_work"
+        style="@style/workerText"
+        android:text="@string/mcw_line"/>
+
+</LinearLayout>
