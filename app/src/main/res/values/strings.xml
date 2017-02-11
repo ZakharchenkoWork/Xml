@@ -32,4 +32,17 @@
     <string name="female">Female</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
+    <string name="childrens">Childrens: %1$d</string>
+    <string name="h_education">H/education: %1$d</string>
+    <string name="work">Work: %1$d</string>
+    <string name="done">Done</string>
+    <string name="workName">Name: %1$s</string>
+    <string name="specialty">Specialty: %1$s</string>
+    <string name="begin_s">Begin: %1$s</string>
+    <string name="end_s">End: %1$s</string>
+    <string name="birthYear_s">Birth: %1$d</string>
+    <string name="firstname_s">Firstname: %1$s</string>
+    <string name="lastname_s">Lastname: %1$s</string>
+    <string name="surname_s">Surname: %1$s</string>
+    <string name="profession_s">Profession: %1$s</string>
 </resources>

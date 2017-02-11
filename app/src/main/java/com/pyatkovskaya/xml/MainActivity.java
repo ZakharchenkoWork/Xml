@@ -24,6 +24,8 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     private ListView list;
+    private ArrayList<Person> persons;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,14 +43,12 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         list = (ListView)findViewById(R.id.list);
-        ArrayList<Person> persons = new ArrayList<>();
+        persons = new ArrayList<>();
         persons.add(Person.generateMe());
         persons.add(Person.generateMe());
         persons.add(Person.generateMe());
         persons.add(Person.generateMe());
         list.setAdapter(new PeopleAdapter(this, persons));
-
-
 
     }
 
@@ -69,7 +69,6 @@ public class MainActivity extends AppCompatActivity
             public void onOKpressed(String userInput) {
                 try {
                     int count = Integer.parseInt(userInput);
-                    ArrayList<Person> persons = new ArrayList<>();
                     for (int i = 0; i < count; i++) {
                         persons.add(Person.generateMe());
                     }
@@ -89,10 +88,19 @@ public class MainActivity extends AppCompatActivity
         if(id == R.id.generateButton){
             generate();
         } else if(id==R.id.newButton){
-            list.setAdapter(new PeopleAdapter(MainActivity.this, new ArrayList<Person>()));
+            persons = new ArrayList<>();
+            list.setAdapter(new PeopleAdapter(MainActivity.this, persons));
         } else if(id==R.id.addButton){
             Intent editActivity = new Intent(MainActivity.this, EditPersonActivity.class);
             startActivity(editActivity);
+            EditPersonActivity.setOkListener(new EditPersonActivity.OkListener() {
+                @Override
+                public void onOkClicked(Person person) {
+                    Log.v("MainActivity", person.getFirstname());
+                    persons.add(person);
+                    list.setAdapter(new PeopleAdapter(MainActivity.this, persons));
+                }
+            });
         }
 
         return true;

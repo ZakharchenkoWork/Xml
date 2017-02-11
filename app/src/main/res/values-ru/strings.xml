@@ -32,4 +32,17 @@
     <string name="female">Женский</string>
     <string name="yes">Да</string>
     <string name="no">Нет</string>
+    <string name="childrens">Дети: %1$d</string>
+    <string name="h_education">В/образование: %1$d</string>
+    <string name="work">Работа: %1$d</string>
+    <string name="done">готово</string>
+    <string name="workName">Название: %1$s</string>
+    <string name="specialty">Специальность: %1$s</string>
+    <string name="begin_s">Начало: %1$s</string>
+    <string name="end_s">Конец: %1$s</string>
+    <string name="birthYear_s">Рождение: %1$d</string>
+    <string name="firstname_s">Имя: %1$s</string>
+    <string name="lastname_s">Фамилия: %1$s</string>
+    <string name="surname_s">Отчество: %1$s</string>
+    <string name="profession_s">Профессия: %1$s</string>
 </resources>

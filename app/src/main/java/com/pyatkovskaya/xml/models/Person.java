@@ -21,6 +21,9 @@ public class Person
 	private List<Work>  works = new ArrayList<>();
 	private List<Child> childs = new ArrayList<>();
 
+	public Person() {
+	}
+
 	public Person(String firstname, String lastname, String surname, String pasport,
 				  String country, String birthday, Educate school, boolean gender, boolean maried ) {
 		this.firstname = firstname;
